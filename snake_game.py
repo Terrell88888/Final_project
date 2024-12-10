@@ -297,7 +297,7 @@ def main():
     cap.set(4, 720)
     detector = HandDetector(detectionCon=0.8, maxHands=1)
 
-    game = SnakeGame("C:\\Users\\Terrell\\Downloads\\1.png")
+    game = SnakeGame("food.png")
     level_manager = LevelManager()
 
     game_mode = None
