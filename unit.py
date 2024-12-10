@@ -4,7 +4,7 @@ from main import SnakeGame, LevelManager
 
 class TestSnakeGame(unittest.TestCase):
     def setUp(self):
-        self.game = SnakeGame("C:\\Users\\Terrell\\Downloads\\1.png")
+        self.game = SnakeGame("food.png")
         self.level_manager = LevelManager()
 
     def test_food_generation(self):
