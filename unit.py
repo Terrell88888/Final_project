@@ -1,5 +1,5 @@
 import unittest
-from main import SnakeGame, LevelManager
+from snake_game import SnakeGame, LevelManager
 
 
 class TestSnakeGame(unittest.TestCase):
